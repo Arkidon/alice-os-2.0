@@ -4,7 +4,7 @@ name: alice-os
 description: Unlimited power!
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-nvidia:sha256-4c8b677c2ddf15f443c54609720c1dc5b1e77ef34849cbc296a6fd54f3bf0644.sig
+base-image: ghcr.io/ublue-os/bazzite-nvidia
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
